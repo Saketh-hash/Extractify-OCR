@@ -1,7 +1,7 @@
-# **Ctrl Alt Elite - OCR Text Extractor**
+# **Ctrl Alt Elite - Extractify-OCR**
 
 ## 📌 **Overview**
-Ctrl+Alt+Elite - OCR Text Extractor is a **Flask-based web application** that extracts text from images using **Tesseract OCR**, enhances the text using **OpenAI's GPT-3.5**, and displays the cleaned-up output.
+Ctrl+Alt+Elite - Extractify-OCR is a **Flask-based web application** that extracts text from images using **Tesseract OCR**, enhances the text using **OpenAI's GPT-3.5**, and displays the cleaned-up output.
 
 ## 🚀 **Features**
 - Upload images containing handwritten or printed text
@@ -30,13 +30,7 @@ Ctrl+Alt+Elite - OCR Text Extractor is a **Flask-based web application** that ex
 
 ## 🛠️ **Installation Steps**
 
-### **1️⃣ Clone the Repository**
-```sh
-git clone https://github.com/pandu-069/OCR-Text-Extractor.git
-cd OCR-Text-Extractor
-```
-
-### **2️⃣ Create a Virtual Environment**
+### **1. Create a Virtual Environment**
 ```sh
 # For Windows
 python -m venv venv
@@ -47,12 +41,12 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### **3️⃣ Install Dependencies**
+### **2. Install Dependencies**
 ```sh
 pip install -r requirements.txt
 ```
 
-### **4️⃣ Set Up OpenAI API Key**
+### **3. Set Up OpenAI API Key**
 Create an `.env` file in the root directory and add your OpenAI API key:
 ```sh
 OPENAI_API_KEY="your-api-key-here"
